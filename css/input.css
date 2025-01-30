@@ -1,6 +1,14 @@
-@import "tailwindcss";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-@theme {
-    --font-primary: "Sora", serif;
-    --font-secondary: "ADLaM Display", serif;
+
+.sora-family {
+    font-family: "Sora", sans-serif;
+}
+.display-family {
+    font-family: "ADLaM Display", serif;
+}
+.header-bottom-border {
+    border-bottom: 1px solid #111111;
 }
