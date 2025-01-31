@@ -290,7 +290,7 @@
         </section>
 
         <!-- Everyday low Price -->
-        <section>
+        <section class="bg-white py-20 pb-[350px] lg:pb-[300px]">
             <div class="container mx-auto p-5">
                 <h2 class="font-display text-2xl md:text-4xl font-bold text-black-1 mb-12">Trending Pet Products</h2>
 
@@ -300,7 +300,8 @@
                         <div class="pt-12 pl-12 lg:pl-20">
                             <p class="hidden lg:block text-xl mb-4">Under Price</p>
                             <h3 class="text-3xl font-display font-bold mb-4">Pet Grooming Mitt</h3>
-                            <p class="hidden lg:block text-2xl font-display font-bold text-white mb-4">(Easy Hair Removal)</p>
+                            <p class="hidden lg:block text-2xl font-display font-bold text-white mb-4">(Easy Hair
+                                Removal)</p>
                             <h4 class="text-6xl font-display font-bold text-white lg:text-black-1">$7.99</h4>
                         </div>
                         <div class="w-1/2 self-end">
@@ -322,8 +323,50 @@
     </main>
 
 
-    <footer>
+    <footer class="bg-[#FFDC2680] p-10 pt-[310px] relative">
+        <!-- Newsletter section -->
+        <sectionn class="absolute -top-1/2 left-0 p-5 lg:w-full">
+            <div
+                class="md:container mx-auto py-8 px-3 bg-[#FFF9F4] rounded-2xl flex flex-col justify-center items-center gap-8 lg:flex-row lg:justify-start">
+                <div class="w-3/5 lg:w-[30%] lg:px-12">
+                    <img src="./assets/cute-dog-mid.png" alt="dog">
+                </div>
+                <form class="flex items-center flex-col gap-3 lg:gap-5 lg:items-start">
+                    <h3 class="font-display font-bold text-2xl lg:text-4xl">Get Pawsome News!</h3>
+                    <p class="text-xl">Exclusive training tips, ticks, product deals and more.</p>
+                    <input type="text" placeholder="Enter email...." class="input outline-none w-full" />
+                    <button class="btn btn-primary bg-primary border-primary">Subscribe</button>
+                </form>
+            </div>
+        </sectionn>
 
+        <!-- Footer Content -->
+        <div class="container mx-auto text-base-content footer lg:grid-cols-3">
+            <aside>
+                <div class="flex items-center gap-3">
+                    <img src="./assets/logo-footer.png" alt="logo">
+                    <span class="text-xl text-black-1 font-medium">Browse<span class="text-primary">4</span>Pets</span>
+                </div>
+                <p>
+                    Discover a world of treats, toys, and essentials handpicked for your furry friends
+                </p>
+            </aside>
+            <nav>
+                <a class="link link-hover">Find a pet</a>
+                <a class="link link-hover">Breeds</a>
+                <a class="link link-hover">Contact us</a>
+            </nav>
+            <nav>
+                <h6 class="footer-title">Follow Us</h6>
+                <div class="flex gap-3">
+                    <a class="link link-hover text-3xl"><i class="fa-brands fa-square-github"></i></a>
+                    <a class="link link-hover text-3xl"><i class="fa-brands fa-linkedin"></i></a>
+                    <a class="link link-hover text-3xl"><i class="fa-brands fa-instagram"></i></a>
+                    <a class="link link-hover text-3xl"><i class="fa-brands fa-facebook"></i></a>
+                </div>
+            </nav>
+        </div>
     </footer>
 </body>
+
 </html>
