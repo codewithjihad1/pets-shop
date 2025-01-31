@@ -8503,6 +8503,10 @@ html:has(.drawer-open.drawer-open) {
   isolation: auto;
 }
 
+.-z-10 {
+  z-index: -10;
+}
+
 .col-span-2 {
   grid-column: span 2 / span 2;
 }
